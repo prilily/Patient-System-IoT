@@ -12,7 +12,7 @@ cur=conn.cursor()
 def home():
     st.title('WELCOME TO PATIENT INFORMATION SYSTEM')
     #maybe add an image here
-    img=Image.open('/home/milano/Desktop/CSE4.1/iot/resources/logo.png')
+    img=Image.open('resources/logo.png')
     st.image(img)
 
 def display_all():
